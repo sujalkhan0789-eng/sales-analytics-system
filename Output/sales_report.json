@@ -1,0 +1,337 @@
+{
+    "generated_at": "2024-12-31T10:30:00",
+    "input_file": "data/sales_data.txt",
+    "cleaning_summary": {
+        "total_parsed": 80,
+        "invalid_removed": 10,
+        "valid_kept": 70,
+        "invalid_records_details": [
+            {
+                "TransactionID": "T075",
+                "ProductName": "Headphones",
+                "Error": "Invalid Quantity: 0"
+            },
+            {
+                "TransactionID": "T072",
+                "ProductName": "Keyboard",
+                "Error": "Missing CustomerID"
+            },
+            {
+                "TransactionID": "T076",
+                "ProductName": "USB Cable",
+                "Error": "Invalid UnitPrice: -459"
+            },
+            {
+                "TransactionID": "T073",
+                "ProductName": "USB Cable",
+                "Error": "Missing CustomerID"
+            },
+            {
+                "TransactionID": "X2",
+                "ProductName": "Laptop Charger",
+                "Error": "TransactionID must start with 'T'"
+            },
+            {
+                "TransactionID": "T071",
+                "ProductName": "Wireless Mouse",
+                "Error": "Missing Region"
+            },
+            {
+                "TransactionID": "X611",
+                "ProductName": "Webcam",
+                "Error": "TransactionID must start with 'T'"
+            },
+            {
+                "TransactionID": "X395",
+                "ProductName": "USB Cable",
+                "Error": "TransactionID must start with 'T'"
+            },
+            {
+                "TransactionID": "T074",
+                "ProductName": "Laptop",
+                "Error": "Invalid Quantity: 0"
+            },
+            {
+                "TransactionID": "T077",
+                "ProductName": "Wireless Mouse",
+                "Error": "Invalid UnitPrice: -998"
+            }
+        ]
+    },
+    "analysis": {
+        "summary": {
+            "total_records": 70,
+            "total_sales": 3726595,
+            "total_quantity": 448,
+            "average_unit_price": 8318.29,
+            "unique_customers": 30,
+            "unique_products": 10,
+            "average_transaction_value": 53237.07
+        },
+        "by_region": {
+            "North": {
+                "total_sales": 1634428,
+                "total_quantity": 214,
+                "transactions": 31,
+                "average_sale_per_transaction": 52723.48
+            },
+            "South": {
+                "total_sales": 892956,
+                "total_quantity": 94,
+                "transactions": 18,
+                "average_sale_per_transaction": 49608.67
+            },
+            "East": {
+                "total_sales": 659462,
+                "total_quantity": 66,
+                "transactions": 17,
+                "average_sale_per_transaction": 38791.88
+            },
+            "West": {
+                "total_sales": 539749,
+                "total_quantity": 74,
+                "transactions": 14,
+                "average_sale_per_transaction": 38553.50
+            }
+        },
+        "by_product": {
+            "P101": {
+                "product_name": "Laptop Premium/Laptop",
+                "total_sales": 1453644,
+                "total_quantity": 18,
+                "transactions": 6,
+                "average_price": 80758.00
+            },
+            "P104": {
+                "product_name": "Monitor LED/Monitor",
+                "total_sales": 548664,
+                "total_quantity": 29,
+                "transactions": 6,
+                "average_price": 18919.45
+            },
+            "P109": {
+                "product_name": "Wireless Mouse Gaming/Wireless Mouse",
+                "total_sales": 493000,
+                "total_quantity": 55,
+                "transactions": 13,
+                "average_price": 8963.64
+            },
+            "P105": {
+                "product_name": "Webcam HD/Webcam",
+                "total_sales": 436531,
+                "total_quantity": 39,
+                "transactions": 9,
+                "average_price": 11193.10
+            },
+            "P108": {
+                "product_name": "External Hard Drive 1TB/External Hard Drive",
+                "total_sales": 361917,
+                "total_quantity": 31,
+                "transactions": 5,
+                "average_price": 11674.74
+            },
+            "P110": {
+                "product_name": "Laptop Charger 65W/Laptop Charger",
+                "total_sales": 226397,
+                "total_quantity": 35,
+                "transactions": 9,
+                "average_price": 6468.49
+            },
+            "P102": {
+                "product_name": "Mouse Wireless/Mouse",
+                "total_sales": 100415,
+                "total_quantity": 63,
+                "transactions": 13,
+                "average_price": 1593.89
+            },
+            "P106": {
+                "product_name": "Headphones",
+                "total_sales": 102422,
+                "total_quantity": 23,
+                "transactions": 4,
+                "average_price": 4453.13
+            },
+            "P103": {
+                "product_name": "Keyboard Mechanical/Keyboard",
+                "total_sales": 39752,
+                "total_quantity": 21,
+                "transactions": 4,
+                "average_price": 1892.95
+            },
+            "P107": {
+                "product_name": "USB Cable",
+                "total_sales": 8843,
+                "total_quantity": 31,
+                "transactions": 10,
+                "average_price": 285.26
+            }
+        },
+        "top_customers": [
+            {
+                "customer_id": "C004",
+                "total_spent": 831272,
+                "transactions": 3,
+                "average_spent": 277090.67
+            },
+            {
+                "customer_id": "C010",
+                "total_spent": 419179,
+                "transactions": 3,
+                "average_spent": 139726.33
+            },
+            {
+                "customer_id": "C024",
+                "total_spent": 249451,
+                "transactions": 3,
+                "average_spent": 83150.33
+            },
+            {
+                "customer_id": "C008",
+                "total_spent": 239945,
+                "transactions": 4,
+                "average_spent": 59986.25
+            },
+            {
+                "customer_id": "C009",
+                "total_spent": 183899,
+                "transactions": 8,
+                "average_spent": 22987.38
+            },
+            {
+                "customer_id": "C022",
+                "total_spent": 167373,
+                "transactions": 5,
+                "average_spent": 33474.60
+            },
+            {
+                "customer_id": "C007",
+                "total_spent": 144263,
+                "transactions": 5,
+                "average_spent": 28852.60
+            },
+            {
+                "customer_id": "C025",
+                "total_spent": 59149,
+                "transactions": 4,
+                "average_spent": 14787.25
+            },
+            {
+                "customer_id": "C005",
+                "total_spent": 102704,
+                "transactions": 4,
+                "average_spent": 25676.00
+            },
+            {
+                "customer_id": "C011",
+                "total_spent": 30144,
+                "transactions": 3,
+                "average_spent": 10048.00
+            }
+        ],
+        "sales_trends": {
+            "2024-12-01": 119964,
+            "2024-12-02": 866284,
+            "2024-12-03": 160586,
+            "2024-12-05": 257,
+            "2024-12-06": 34072,
+            "2024-12-07": 217463,
+            "2024-12-08": 71253,
+            "2024-12-09": 224718,
+            "2024-12-10": 1550,
+            "2024-12-11": 22591,
+            "2024-12-13": 415081,
+            "2024-12-14": 45349,
+            "2024-12-15": 818960,
+            "2024-12-16": 3020,
+            "2024-12-17": 114356,
+            "2024-12-18": 81284,
+            "2024-12-20": 594,
+            "2024-12-21": 25992,
+            "2024-12-22": 186432,
+            "2024-12-23": 768,
+            "2024-12-24": 207401,
+            "2024-12-25": 29331,
+            "2024-12-26": 38106,
+            "2024-12-27": 125313,
+            "2024-12-28": 0,
+            "2024-12-29": 5608,
+            "2024-12-30": 286990
+        },
+        "key_insights": {
+            "top_performing_region": "North",
+            "top_selling_product": "P101 (Laptop Premium/Laptop)",
+            "most_valuable_customer": "C004",
+            "highest_sales_day": "2024-12-02",
+            "most_transactions_customer": "C009 (8 transactions)",
+            "product_with_highest_average_price": "P101 ($80,758)",
+            "region_with_highest_average_transaction": "North ($52,723)",
+            "best_selling_low_value_product": "P107 (USB Cable - 31 units sold)",
+            "date_with_most_transactions": "2024-12-07 (multiple transactions)"
+        },
+        "recommendations": [
+            "Focus marketing efforts in North region which contributes 44% of total sales",
+            "Promote high-value products like P101 (Laptops) which drive maximum revenue",
+            "Implement loyalty program for top customers like C004, C010, C024",
+            "Increase inventory of P107 (USB Cable) due to high volume sales",
+            "Consider regional pricing strategy based on purchasing patterns",
+            "Target cross-selling opportunities between high and low value products"
+        ]
+    },
+    "sample_valid_records": [
+        {
+            "TransactionID": "T018",
+            "Date": "2024-12-29",
+            "ProductID": "P107",
+            "ProductName": "USB Cable",
+            "Quantity": 8,
+            "UnitPrice": 173,
+            "CustomerID": "C009",
+            "Region": "South",
+            "TotalPrice": 1384
+        },
+        {
+            "TransactionID": "T063",
+            "Date": "2024-12-07",
+            "ProductID": "P110",
+            "ProductName": "Laptop Charger",
+            "Quantity": 6,
+            "UnitPrice": 1916,
+            "CustomerID": "C022",
+            "Region": "East",
+            "TotalPrice": 11496
+        },
+        {
+            "TransactionID": "T023",
+            "Date": "2024-12-09",
+            "ProductID": "P109",
+            "ProductName": "Wireless Mouse",
+            "Quantity": 9,
+            "UnitPrice": 523,
+            "CustomerID": "C022",
+            "Region": "North",
+            "TotalPrice": 4707
+        },
+        {
+            "TransactionID": "T059",
+            "Date": "2024-12-29",
+            "ProductID": "P102",
+            "ProductName": "Mouse Wireless",
+            "Quantity": 4,
+            "UnitPrice": 1056,
+            "CustomerID": "C010",
+            "Region": "South",
+            "TotalPrice": 4224
+        },
+        {
+            "TransactionID": "T035",
+            "Date": "2024-12-08",
+            "ProductID": "P102",
+            "ProductName": "Mouse",
+            "Quantity": 4,
+            "UnitPrice": 431,
+            "CustomerID": "C011",
+            "Region": "North",
+            "TotalPrice": 1724
+        }
+    ]
+}

@@ -1,0 +1,4 @@
+=== DATA CLEANING SUMMARY ===
+Total records parsed: 80
+Invalid records removed: 10
+Valid records after cleaning: 70

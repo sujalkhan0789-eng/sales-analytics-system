@@ -1,0 +1,103 @@
+============================================================
+SALES ANALYSIS REPORT
+============================================================
+
+SUMMARY STATISTICS:
+----------------------------------------
+Total Valid Records: 70
+Total Sales: $3,726,595
+Total Quantity Sold: 448
+Average Unit Price: $8,318.29
+Unique Customers: 30
+Unique Products: 10
+
+REGION-WISE ANALYSIS:
+----------------------------------------
+North:
+  Total Sales: $1,634,428
+  Quantity Sold: 214
+  Transactions: 31
+South:
+  Total Sales: $892,956
+  Quantity Sold: 94
+  Transactions: 18
+East:
+  Total Sales: $659,462
+  Quantity Sold: 66
+  Transactions: 17
+West:
+  Total Sales: $539,749
+  Quantity Sold: 74
+  Transactions: 14
+
+TOP SELLING PRODUCTS:
+----------------------------------------
+1. P101 - Laptop Premium/Laptop
+   Sales: $1,453,644
+   Quantity: 18
+2. P104 - Monitor LED/Monitor
+   Sales: $548,664
+   Quantity: 29
+3. P109 - Wireless Mouse Gaming/Wireless Mouse
+   Sales: $493,000
+   Quantity: 55
+4. P105 - Webcam HD/Webcam
+   Sales: $436,531
+   Quantity: 39
+5. P108 - External Hard Drive 1TB/External Hard Drive
+   Sales: $361,917
+   Quantity: 31
+6. P110 - Laptop Charger 65W/Laptop Charger
+   Sales: $226,397
+   Quantity: 35
+7. P102 - Mouse Wireless/Mouse
+   Sales: $100,415
+   Quantity: 63
+8. P106 - Headphones
+   Sales: $102,422
+   Quantity: 23
+9. P103 - Keyboard Mechanical/Keyboard
+   Sales: $39,752
+   Quantity: 21
+10. P107 - USB Cable
+   Sales: $8,843
+   Quantity: 31
+
+TOP CUSTOMERS:
+----------------------------------------
+1. Customer C004
+   Total Spent: $831,272
+   Transactions: 3
+2. Customer C010
+   Total Spent: $419,179
+   Transactions: 3
+3. Customer C024
+   Total Spent: $249,451
+   Transactions: 3
+4. Customer C008
+   Total Spent: $239,945
+   Transactions: 4
+5. Customer C009
+   Total Spent: $183,899
+   Transactions: 8
+6. Customer C022
+   Total Spent: $167,373
+   Transactions: 5
+7. Customer C007
+   Total Spent: $144,263
+   Transactions: 5
+8. Customer C025
+   Total Spent: $59,149
+   Transactions: 4
+9. Customer C005
+   Total Spent: $102,704
+   Transactions: 4
+10. Customer C011
+   Total Spent: $30,144
+   Transactions: 3
+
+SALES TRENDS:
+----------------------------------------
+Highest Sales Day: 2024-12-02 ($866,284)
+Lowest Sales Day: 2024-12-05 ($257)
+Peak Sales Period: Late December (12/24 - 12/30)
