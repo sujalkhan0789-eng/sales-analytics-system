@@ -165,6 +165,7 @@ def main():
         print(f"- Top Product Category: {top_category}")
     
     print("\nSystem ready for business decision making!")
+    
 
 
 if __name__ == "__main__":
